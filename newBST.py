@@ -15,9 +15,7 @@ The constructor should accept up to three arguments: data, left, and right
       They should both return the value of the node's data as a "string".
 
          To test that these work, a node with the value 3 for its data should output 3 when printed.
-         Use the following code to test whether your BSTNode is functioning correctly:
-
-
+         Use the code at the end to test whether your BSTNode is functioning correctly.
 
 """
 
@@ -106,6 +104,9 @@ class BST:
                 self.add_node(current_node.left, new_node)
 
 
+"""
+** Test your code **
+
 node1 = BSTNode(3)
 print(node1)  # 3
 
@@ -149,3 +150,4 @@ print(bst)
 
 node2.right = node3
 print(bst)
+"""
